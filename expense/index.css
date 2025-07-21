@@ -1,0 +1,92 @@
+#details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#expense{
+  padding-left: 20px;
+}
+
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+#box {
+  background-color: #ffffff;
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+#title {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+#total {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2d3436;
+  margin-bottom: 20px;
+}
+
+#details {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+#income, #expense {
+  background-color:  #f1f2f6;
+  padding: 15px;
+  border-radius: 10px;
+  width: 120px;
+  text-align: center;
+}
+
+#income h4 {
+  color: green;
+  font-weight: bold;
+}
+
+#expense h4 {
+  color: red;
+  font-weight: bold;
+}
+
+#inputs {
+  margin-top: 20px;
+}
+
+#inputs input {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+#btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #0984e3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#btn:hover {
+  background-color: #74b9ff;
+}
+li{
+  width: fit-content;
+}
+
